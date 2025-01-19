@@ -38,7 +38,7 @@
 }
 
 main>section {
-    margin-left: 130px;
+    margin-bottom: 130px;
 }
 
 main {
@@ -144,6 +144,16 @@ main {
         grid-template-columns: repeat(1, 1fr);
     }
     .our-features {
-        margin-left: 20px;
+        margin: 20px;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin-left: 50px;
     }
 }
