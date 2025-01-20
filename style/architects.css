@@ -101,11 +101,11 @@ main>section {
     width: 100%;
 }
 
-header,
+/* header,
 .teams,
 .some-facts {
     display: none;
-}
+} */
 
 /* Team and features related style */
 
